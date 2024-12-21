@@ -5,6 +5,5 @@ password = ""
 
 lenght = int(input("¿De cuantos caracteres sera tu contraseña?"))
 for i in range(lenght):
-    print(i)
     password += r.choice(elements)
 print(f"tu contraseña es: {password}")
